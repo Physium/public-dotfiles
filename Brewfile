@@ -2,48 +2,56 @@
 tap "warrensbox/tap"
 tap "InstantClientTap/instantclient"
 
-# CLI binaries
+# Basic CLI binaries
 brew "git"
+brew "awscli"
+brew "aws-vault"
+brew "autojump"
+brew "jq"
+brew "libsodium"
+
+# Version Managers
 brew "rbenv"
 brew "pyenv"
 brew "nvm"
-brew "postgresql"
-brew "autojump"
-brew "awscli"
-brew "aws-vault"
-brew "jq"
 brew "tfswitch"
 brew "tgswitch"
-brew "libsodium"
+
+# Database
+brew "postgresql"
 
 # OCI
 brew "instantclient-basic"
 brew "instantclient-sdk"
 brew "instantclient-sqlplus"
+cask "microsoft-office"
 
-# App(s) & Stuff
+# Productivity App(s)
 cask "rectangle"
+cask "notion"
+cask "google-chrome"
+cask "spotify"
+
+# Protect Me
 cask "bitwarden"
 cask "authy"
-cask "iterm2"
-cask "docker"
-cask "session-manager-plugin"
+
+# Communicate
 cask "telegram-desktop"
 cask "discord"
 cask "slack"
+cask "zoom"
+cask "microsoft-teams"
+cask "whatsapp"
+
+# Development Thingy
+cask "iterm2"
 cask "jetbrains-toolbox"
 cask "visual-studio-code"
+cask "docker"
+cask "session-manager-plugin"
 cask "postman"
-cask "notion"
-cask "microsoft-office"
-cask "microsoft-teams"
-cask "google-chrome"
-cask "zoom"
-
-# Work Related
 cask "tunnelblick"
-cask "intune-company-portal"
 
-# Personal
-cask "whatsapp"
-cask "spotify"
+# MDM
+cask "intune-company-portal"
