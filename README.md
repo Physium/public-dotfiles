@@ -1,6 +1,6 @@
 # Nothing to see here
 
-Doing this so that I can get my hands on critical config files just with `git clone`
+Doing this so that I can get my hands on critical config files with just one `git clone`
 
 ## Pre-reqs
 
