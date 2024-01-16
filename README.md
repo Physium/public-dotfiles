@@ -1,6 +1,6 @@
 # Nothing to see here
 
-Just a bunch of configs
+Doing this so that I can get my hands on critical config files just with `git clone`
 
 ## Pre-reqs
 
@@ -10,7 +10,6 @@ Just a bunch of configs
 ## Setup Process
 
 1. Load up your Brewfile by running `brew bundle` 
-2. For most part, just pick and choose configs you want to copy over into the respective dotfiles. Otherwise you may just copy the whole file over into the $HOME folder.
 
 ## .macos
 
